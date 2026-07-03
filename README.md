@@ -51,10 +51,13 @@ The predictive model was trained using an iterative categorical cross-entropy lo
 * **Deployment & Interface Environment:** Streamlit Engine
 
 ---
+## Repository Structure
 
+```text
 ├── app.py                      # Main production web interface application script
 ├── predict-next-word.ipynb     # Research, architecture development, and training pipeline
 ├── requirements.txt           # Minimal, cloud-compatible third-party dependencies
 ├── vocab.json                 # Exported tokenizer vocabulary mappings
 ├── config.json                # Model hyperparameters and sequence settings
 └── .gitignore                 # Extraneous files and heavy binary tracking blocks
+```
